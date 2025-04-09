@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: 'git@github.com:harshachaitanya27/my-portfolio.git',
+  base: '/my-portfolio/', // this is correct for GitHub Pages
   plugins: [react()],
 })
